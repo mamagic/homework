@@ -23,8 +23,10 @@ public class HomeWork {
 
 		for (int i = 0; i < lenthX; i++)
 			for (int j = 0; j < lenthY; j++) 
-				if (boards[i][j] == 2) 
+				if (boards[i][j] == 2) {
 					startPoint = new Point(i, j);
+					break;
+				}
 
 		results[0] = startPoint;
 		int index = 0;
