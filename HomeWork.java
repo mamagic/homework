@@ -28,6 +28,7 @@ public class HomeWork {
 		int index = 0;
 		while (true) {
 			Point nowPoint = results[index];
+
 			int x = nowPoint.x;
 			int y = nowPoint.y;
 
